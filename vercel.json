@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "index.html",
+      "src": "/index.html",
       "use": "@vercel/static"
     }
   ],
@@ -10,7 +10,7 @@
     {
       "src": "/(.*)",
       "headers": {
-        "cache-control": "s-maxage=86400,immutable"
+        "cache-control": "s-maxage=86400"
       },
       "dest": "/index.html"
     }
