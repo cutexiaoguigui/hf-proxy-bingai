@@ -8,12 +8,8 @@
   ],
   "routes": [
     {
-      "src": "/_next/(.*)",
-      "dest": "/_next/$1"
-    },
-    {
-      "src": "/logo.svg",
-      "dest": "/logo.svg"
+      "src": "/logo",
+      "dest": "/img/logo.svg"
     },
     {
       "src": "/manifest.json",
