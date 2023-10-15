@@ -17,9 +17,6 @@
     },
     {
       "src": "/(.*)",
-      "headers": {
-        "cache-control": "s-maxage=30"
-      },
       "dest": "/index.html"
     }
   ]
